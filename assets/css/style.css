@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Raleway:wght@100&family=Righteous&family=Roboto:wght@500&display=swap");
+
+/***************************************************************************************************************************************/
+
+/* Body */
+
+body {
+  background-color: rgb(188, 192, 196);
+  font-family: "Kanit", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Righteous", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  align-items: center;
+}
+
+/***************************************************************************************************************************************/
+
+/* box 1 */
+
+.box-1 img {
+  width: 10vw;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  border: 1px solid;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 1.25rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.box-1 button{
+    width: 13vw;
+    height: 35px;
+    background: cornflowerblue;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.cantidad {
+  width: 75%;
+  height: 25px;
+}
+
+.corazon{
+    font-size: 40px;
+}
+
+.box-1 p {
+  margin: 0;
+}
+
+/***************************************************************************************************************************************/
+
+/* Box 2 */
+
+.box-2 {
+  padding-left: 50px;
+}
+
+.box-2 p {
+  margin: 0;
+}
+
+/***************************************************************************************************************************************/

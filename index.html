@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-1">
+            <img src="./assets/img/img-1.png" alt="">
+            <p class="nombre">Notebook Asus Zenbook</p>
+            <input class="cantidad" type="text" value="1">
+            <select id="color" onchange="cambioColor()">
+                <option value="---">---</option>
+                <option value="blue">blue</option>
+                <option value="grey">grey</option>
+                <option value="red">red</option>
+                <option value="black">black</option>
+            </select>
+            <p class="price">Precio: $750.000</p>
+            <button onclick="calcular()">Calcular Total</button>
+        </div>
+        <div class="box-2">
+            <p>Total: <span class="total"></span></p>
+            <p>Cantidad: <span class="total-cantidad"></span></p>
+            <p>Color: <span class="corazon">♥</span></p>
+        </div>
+    </div>
+
+    
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
